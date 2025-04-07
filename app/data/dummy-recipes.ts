@@ -1,6 +1,10 @@
 export const dummyRecipes = [
   {
     name: "簡単トマトパスタ",
+    image: "/recipes/tomato-pasta.jpg",
+    prepTime: "20分",
+    servings: 2,
+    difficulty: "簡単",
     ingredients: [
       "スパゲッティ 200g",
       "トマト 2個",
@@ -21,6 +25,10 @@ export const dummyRecipes = [
   },
   {
     name: "簡単チキンカレー",
+    image: "/recipes/chicken-curry.jpg",
+    prepTime: "40分",
+    servings: 4,
+    difficulty: "普通",
     ingredients: [
       "鶏もも肉 300g",
       "玉ねぎ 1個",
@@ -42,6 +50,10 @@ export const dummyRecipes = [
   },
   {
     name: "簡単サラダチキン",
+    image: "/recipes/salad-chicken.jpg",
+    prepTime: "15分",
+    servings: 2,
+    difficulty: "簡単",
     ingredients: [
       "鶏むね肉 1枚",
       "塩 小さじ1/2",
@@ -57,6 +69,56 @@ export const dummyRecipes = [
       "マリネした鶏肉を耐熱皿に並べ、ラップをかける。",
       "電子レンジ（600W）で5分加熱する。",
       "粗熱が取れたら薄切りにして完成。",
+    ],
+  },
+  {
+    name: "和風ハンバーグ",
+    image: "/recipes/japanese-hamburger.jpg",
+    prepTime: "30分",
+    servings: 2,
+    difficulty: "普通",
+    ingredients: [
+      "合いびき肉 300g",
+      "玉ねぎ 1/2個",
+      "パン粉 大さじ2",
+      "牛乳 大さじ2",
+      "卵 1個",
+      "塩こしょう 少々",
+      "和風だし 大さじ2",
+      "醤油 大さじ1",
+      "みりん 大さじ1",
+    ],
+    instructions: [
+      "玉ねぎをみじん切りにして炒める。",
+      "ボウルに合いびき肉、炒めた玉ねぎ、パン粉、牛乳、卵、塩こしょうを入れ、よく混ぜる。",
+      "2等分して小判形に成形する。",
+      "フライパンで両面を焼く。",
+      "和風だし、醤油、みりんを合わせたタレを加え、煮詰める。",
+      "完成。",
+    ],
+  },
+  {
+    name: "野菜たっぷりスープ",
+    image: "/recipes/vegetable-soup.jpg",
+    prepTime: "25分",
+    servings: 4,
+    difficulty: "簡単",
+    ingredients: [
+      "キャベツ 1/4個",
+      "にんじん 1本",
+      "玉ねぎ 1個",
+      "じゃがいも 2個",
+      "ベーコン 2枚",
+      "コンソメ 1個",
+      "水 800ml",
+      "塩こしょう 少々",
+    ],
+    instructions: [
+      "野菜を一口大に切る。",
+      "鍋に水とコンソメを入れ、沸騰させる。",
+      "野菜を加えて15分煮る。",
+      "ベーコンを加えてさらに5分煮る。",
+      "塩こしょうで味を調えて完成。",
     ],
   },
 ]
