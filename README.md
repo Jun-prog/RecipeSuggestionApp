@@ -2,6 +2,9 @@
 
 This app reads ingredients from a photo of food and suggests recipes for dinner. You can select recipes with a flick gesture.
 
+![Recipe Suggestion](./doc/gif/RecipeSuggestion.gif)
+
+
 ## Directory Structure
 
 - **app/**: Main pages and layout of the application
