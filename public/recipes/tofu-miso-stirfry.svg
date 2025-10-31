@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9c74f" />
+      <stop offset="100%" stop-color="#f9844a" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" rx="32" />
+  <g fill="#fff8e7" stroke="#5a3000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="220" y="220" width="360" height="180" rx="40" />
+    <path d="M260 250c80 60 200 60 280 0" fill="none" />
+    <path d="M280 320c60 40 160 40 240 0" fill="#ffe4c4" />
+    <circle cx="320" cy="280" r="18" fill="#f94144" />
+    <circle cx="480" cy="280" r="18" fill="#90be6d" />
+    <circle cx="400" cy="340" r="24" fill="#577590" />
+  </g>
+  <text x="400" y="520" font-family="'Noto Sans JP', sans-serif" font-size="48" fill="#2f1c00" text-anchor="middle">
+    豆腐と野菜の味噌炒め
+  </text>
+</svg>

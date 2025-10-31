@@ -13,6 +13,7 @@ export const recipes = {
     { name: "Grilled Salmon", image: "/placeholder.svg?height=300&width=400", prepTime: "35 min", servings: 2 },
     { name: "Pasta Primavera", image: "/placeholder.svg?height=300&width=400", prepTime: "30 min", servings: 4 },
     { name: "Stir Fry", image: "/placeholder.svg?height=300&width=400", prepTime: "25 min", servings: 2 },
+    { name: "Tofu Miso Stir-Fry", image: "/recipes/tofu-miso-stirfry.svg", prepTime: "30 min", servings: 3 },
   ],
 }
 
